@@ -1,0 +1,38 @@
+/*tipo de selector{
+	propiedad :valor;
+	propiedad-2:valor;
+}*/
+/*selector universal cambia a todo el documento html*/
+* {
+	border: 1px solid red;
+	margin: 10px;
+}
+/*selector por etiquetas*/
+header {
+	background: blue;
+}
+/*selector de secciones*/
+section{
+background: purple;
+}
+/*selector desendente que funcione como una cascada*/
+article h3{
+	color: green;
+}
+/*selctores de clase (class)*/
+.title-a{
+background: yellow;
+}
+.title-b{
+	background: salmon;
+}
+/*selector de id*/
+#header{
+	border: 3px solid black;
+}
+#portada{
+	border: 3px solid orange;
+}
+#guitarras{
+	border: 3px solid brown;
+}

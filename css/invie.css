@@ -1,0 +1,222 @@
+/*font-family: 'Montserrat', sans-serif;*/ /*se trajo la fuente desde www.google.com/fonts*/
+/*font-family: 'Allerta', sans-serif;*/
+/**{
+	width: tamano
+	height: tamano
+	padding: 10px;
+	padding-top: 10px;
+	padding-right: 13px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding 10px 13px 5px 15px
+	margin: 10px;
+margin-top: 10px;
+	margin-right: 13px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin 10px 13px 5px 15px
+	border: 2px solid red;
+}*/
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+table{
+	width: 100%
+}
+th{
+	background: #273b47;
+	color: white;
+}
+td{
+	padding: 20px;
+}
+th{
+	padding: 10px;
+	text-align: left;
+}
+table, td, th{
+	border: 1px solid #273b47;
+	border-collapse: collapse; /*se quita los tipo doble borde de la tabla*/
+}
+input, textarea{
+	outline: 0; /*quita el reslatado de las cjas de texto*/
+}
+input:focus, textarea:focus {
+background: lightgray;
+}
+.contenedor{/*crear una clase para alojar mas clases y ahorrarme lineas de codigo*/
+	width: 800px;
+	margin: auto;
+	position: relative;
+
+}
+.background{ /*clases utilitarias van al principio*/
+		background-image: url('../imagenes/background.png'); /*con los .. regreso carpetas*/
+	background-size: cover; /*cover utiliza todo el espacio diponible en este caso la imgen de fondo*/
+}
+.button{
+	border-radius: 12px;
+	border:none;
+	background: #fd324e;
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer; /*sirve para poner la manito de navegacion en el boton*/
+	font-size: 18px;
+	text-decoration: none;
+	background: linear-gradient(to left, #fe344e, #ff7250); /*me ayuda hacer degradados de dercha a izquierda*/
+}
+
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+.titulo span{
+	text-decoration: underline; /*nos ayuda a subrayar una parte del texto  */
+}
+.title-a{
+
+	font-size: 24px;
+	margin-top: 0;
+}
+.guitarras{
+	color: #1F313C;
+	margin-bottom: 60px;
+	/*width: 800px;
+	margin: auto;*/
+}
+.guitarras h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+.title-b {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.portada{
+	color: white;
+	padding: 20px;
+	height: 500px;
+/*	width: 800px;
+	margin: auto; /*ayuda a centrar la portada*/
+}
+.portada button{
+	margin-bottom: 70px;
+}
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.menu li:before{
+	content: '↭';
+	font-size: 30px;
+	line-height:50px;
+	color:white;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.guitarra{
+	margin: 10px 10px 30px 10px;
+	padding: 10px;
+	/*overflow: hidden; /*no existen desvordes de blokes se alineas entre si imagenes*/
+	border: 1px solid #1F313C;
+	border-radius: 8px; /*se hacen los bordes redondeados*/
+}
+.guitarra ol{
+	padding: 0;
+}
+.guitarra.b{
+	height: 190px;
+}
+
+.right{
+	float: right;
+	position: relative;
+	top: -127px;
+}
+.left{
+	float: left;
+	position: relative;
+}
+.contenedor-guitarra-a{
+	padding-left: 20px;
+}
+.contenedor-guitarra-b{
+	margin-left: 370px;
+	position: relative;
+	bottom: 90px;
+}
+.header{
+	position: relative;
+}
+.footer{
+	background: #273b47;
+	padding: 50px 10px; 
+}
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.contacto img{
+	display: block;
+}
+.contacto strong {
+	display: block;
+}
+.contacto a{
+	color:white;
+	text-decoration: none; /*ninguna decoracion o subrayado a los enlaces*/
+	margin:10px 10px 10px 0;
+}
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+.formulario{
+	display: flex;
+	width: 400px;
+	color:white;
+}
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+.col1{
+	margin-right: 15px;
+}
+.col2{
+	align-items: flex-start;
+}
+.col2 .button{
+	margin-top: 15px;
+}
+.intereses label{
+	font-size: 12px;
+}
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+.tabla{
+	margin: 50px 0;
+}
